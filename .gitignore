@@ -1,0 +1,47 @@
+# Environment / Secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+
+# Stitch
+.stitch/
+
+# Large binaries
+cloudflared.exe
+*.png
+
+# Scratch
+scratch/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local secrets and runtime data
+.env.*
+!.env.example
+*.db
+*.db-*
+*.sqlite*
+*.log
+LINK_DANG_DUNG.txt
+backend/gemini_output.md
